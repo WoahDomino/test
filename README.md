@@ -7,4 +7,5 @@ Munin plugins are composed of two major pieces:
 * Munin is going to run your script in two ways:
       * ./your_plugin
       * ./your_plugin config
+
 The presence of that 'config' argument means Munin is looking for all of the information about how you want your graph to look.
